@@ -42,9 +42,11 @@ const SingleBook = () => {
   };
   return (
     <div>
-      <Link to="/" className="flex justify-center mt-8 lg:mt-12 mb-2">
-        <SiBookstack className={`text-6xl text-blue-500`} />
-      </Link>
+      <div className=" w-24 mx-auto">
+        <Link to="/" className="flex justify-center mt-8 lg:mt-12 mb-2">
+          <SiBookstack className={`text-6xl text-blue-500`} />
+        </Link>
+      </div>
       <div className="bg-slate-100 rounded-lg p-4 border-2 max-w-xl mx-8 md:mx-auto mt-8">
         <h2 className="text-center text-semibold mb-6 text-lg">Book Details</h2>
         <div className="flex justify-center mb-2">
